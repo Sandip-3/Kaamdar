@@ -1,0 +1,68 @@
+body{
+ background-image: linear-gradient(to left, rgb(0,255,0), rgba(255,255,255));
+}
+
+label{
+	display: inline-block;
+	padding: 12px;
+	width: 80px;
+}
+span{
+	color: red;
+}
+
+#errmsg{
+    color: red;
+}
+
+div{
+	position: absolute;
+	left: 380px;
+	top: 10px;
+	width: auto;
+}
+
+div h1{
+	text-align: center;
+}
+
+fieldset{
+	height: 420px;
+	width: 100%;
+	background-color: white;
+}
+
+.button_r{
+
+    position: relative;
+    margin: 10px;
+    left: 90px;
+    top: 30px;
+    border-radius: 5px;
+    height: 30px;
+    width: 60px;
+    color: white;
+    background-color: #2196f3;
+}
+
+form .input_tag{
+  border-top-style: hidden;
+  border-right-style: hidden;
+  border-left-style: hidden;
+  border-bottom-style: groove;
+}
+
+.input_tag:focus {
+  outline: none;
+}
+
+#register:hover{
+	background-color: green;
+}
+
+#reset:hover{
+	background-color: red;
+}
+#back:hover{
+	background-color: purple;
+}

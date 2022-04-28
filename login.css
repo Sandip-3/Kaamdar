@@ -1,0 +1,82 @@
+div{
+	position: absolute;
+	left: 380px;
+	top: 80px;
+	width: auto;
+}
+
+div h1{
+	text-align: center;
+}
+
+div label{
+	display: inline-block;
+	width: 60px;
+	margin: 22px;
+}
+
+form last-child{
+	position: relative;
+	height: 200px;
+}
+
+#btn_l{
+
+    position: relative;
+    margin: 10px;
+    left: 175px;
+    border-radius: 5px;
+    height: 30px;
+    width: 60px;
+    color: white;
+    background-color: #2196f3;
+}
+
+#rem_me{
+    position: relative;
+    width: 12%;
+    
+}
+
+form .input_tag{
+  border-top-style: hidden;
+  border-right-style: hidden;
+  border-left-style: hidden;
+  border-bottom-style: groove;
+}
+
+.input_tag:focus {
+  outline: none;
+}
+
+#btn_l:hover{
+	background-color: green;
+}
+
+.error{
+	color: red;
+}
+
+#login_failed{
+	text-align: center;
+	color: red;
+}
+
+form p{
+	display:inline-block ;
+	position:relative ;
+	left: 23px;
+	padding: 2px;
+}
+
+form a{
+	text-decoration: none;
+}
+
+a:visited{
+	color: blue;
+}
+a:hover{
+	color: green;
+	text-decoration: underline;
+}
